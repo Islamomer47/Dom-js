@@ -17,4 +17,4 @@ This project is a simple fruit gallery created to practice JavaScript exercises 
 
 ## Live Demo
 
-Check out the live version of this project [Fruit Gallery]().
+Check out the live version of this project [Fruit Gallery](https://islamomer47.github.io/Dom-js/#home).
