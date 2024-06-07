@@ -1,0 +1,91 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f5f5f5;
+}
+
+nav {
+  background-color: #4caf50;
+  color: white;
+  padding: 1em 0;
+}
+
+nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1em;
+  margin: 0;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5em 1em;
+}
+
+header {
+  background: url("head.jpg") no-repeat center center/cover;
+
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 5em 0;
+}
+
+header .container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+header h2 {
+  font-size: 2.5em;
+}
+
+header p {
+  font-size: 1.2em;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 2em;
+}
+
+#fruits ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+#fruits li {
+  list-style: none;
+  flex: 1 1 calc(25% - 1em);
+  background: white;
+  padding: 1em;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: center;
+}
+
+#fruits img {
+  max-width: 100px;
+  margin-bottom: 1em;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+}
